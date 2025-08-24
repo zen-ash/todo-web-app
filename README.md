@@ -1,52 +1,62 @@
 # Simple To‑Do List
 
-This repository contains a small to‑do list web application written in plain
-HTML, CSS and JavaScript. I built it to scratch a personal itch: I wanted a
-lightweight way to jot down tasks without spinning up a full framework or
-reaching for a third‑party service. The result is a self‑contained page that
-loads instantly and works in any modern browser.
+![Todo App Banner](https://repository-images.githubusercontent.com/placeholder)
+
+<!-- Badges -->
+
+![GitHub Repo Stars](https://img.shields.io/github/stars/zen-ash/todo-web-app?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/zen-ash/todo-web-app?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/zen-ash/todo-web-app)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/zen-ash/todo-web-app)
+
+## Overview
+
+This repository contains a lightweight to‑do list web application built using **plain HTML, CSS and JavaScript**.  It was created as a practice project to demonstrate how to build a usable app without reaching for a framework.  Despite its simplicity, the app includes all the features you’d expect from a to‑do list and looks great on desktop and mobile.
 
 ## Features
 
-The app supports all the basics you’d expect from a to‑do list:
+- **Add tasks** – Type a description and click “Add” to append it to the list.
+- **Edit tasks** – Click an existing task to edit its text inline.
+- **Delete tasks** – Remove completed tasks with a single click.
+- **Persist data** – Uses `localStorage` so your tasks remain when you refresh the page.
+- **Responsive design** – Adjusts layout for small screens and large displays using flexbox.
 
-* **Add tasks** – Type a description and click “Add” to append it to the list.
-* **Edit tasks** – Click the “Edit” button to make a task’s text editable. When
-  you’re done editing, click “Save” to commit your changes.
-* **Mark complete** – Each task has a checkbox; completed tasks are styled
-  with a strikethrough and a lighter background.
-* **Delete tasks** – Remove unwanted items with a single click.
-* **Persistent storage** – Your list is saved in your browser’s
-  `localStorage`, so refreshing the page or closing the tab won’t wipe it
-  away.
+## Demo
 
-These features mirror common functionality described in tutorials for building
-to‑do apps. For instance, guides on dev.to and GeeksforGeeks emphasise the
-importance of adding, editing, deleting and marking tasks as complete, and
-suggest using local storage to persist the data【458755074990480†L183-L193】【203605698872591†L90-L103】.
+You can see a live version of this app by opening `index.html` in your browser or visiting the GitHub Pages deployment (if available).
 
-## How to run it
+![Todo App Screenshot](./screenshots/todo.png)
 
-There are no dependencies or build steps. To try it out:
+## Getting Started
 
-1. Clone this repository or download the files.
-2. Open `index.html` in your favourite web browser.
-3. Start adding tasks.
+To run the app locally:
 
-That’s it! Because the app uses `localStorage`, you’ll see your tasks again
-if you revisit the page later from the same browser.
+```bash
+git clone https://github.com/zen-ash/todo-web-app.git
+cd todo-web-app
 
-## Customisation
+# Open the app
+open index.html  # or double‑click the file in your file explorer
+```
 
-The CSS is intentionally simple and well‑commented. Feel free to adjust the
-colour palette, spacing or typography to match your taste. You could also
-extend the JavaScript to add due dates, categories or drag‑and‑drop
-reordering. Since it’s all plain HTML, CSS and JS, there’s nothing to
-compile – you can just open the file and start hacking away.
+No build step or package installation is required – everything is handled client‑side.
 
-## A note on motivation
+## Technologies Used
 
-Building a to‑do list is a classic exercise for practicing DOM
-manipulation and event handling. This version focuses on clean, readable
-code and a polished user experience rather than cleverness. I hope you find
-it as useful and enjoyable as I do.
+| Technology | Purpose                                  |
+|-----------|-------------------------------------------|
+| HTML5     | Markup structure for the web page         |
+| CSS3      | Styling, layout (flexbox) and responsiveness |
+| JavaScript| DOM manipulation, event handling, storage |
+
+## Contributing
+
+Contributions are welcome!  Feel free to fork the repository, open issues, or submit pull requests.  If you find this project helpful, please star the repo to show your support.
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Made with ❤️ by **Aayush Kumar** – [zen-ash](https://github.com/zen-ash).  If you have any questions, feel free to reach out: [aayushmeetsash@gmail.com](mailto:aayushmeetsash@gmail.com).
